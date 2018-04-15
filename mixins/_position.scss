@@ -1,0 +1,23 @@
+@mixin position($position: relative, $top: auto, $right: auto, $bottom: auto, $left: auto, $z-index: 0) {
+  position: $position;
+
+  @if $top != auto {
+    top: $top;
+  }
+
+  @if $right != auto {
+    right: $right;
+  }
+
+  @if $bottom != auto {
+    bottom: $bottom;
+  }
+
+  @if $left != auto {
+    left: $left;
+  }
+
+  @if $z-index != 0 {
+    z-index: $z-index;
+  }
+}

@@ -1,0 +1,31 @@
+.default {
+  position: absolute;
+  top: 1px;
+  right: 2px;
+  bottom: 3px;
+  left: 4px;
+  z-index: 1; }
+
+.relative {
+  position: relative;
+  top: 1px;
+  right: 2px;
+  bottom: 3px;
+  left: 4px;
+  z-index: 1; }
+
+.absolute {
+  position: absolute;
+  top: 1px;
+  right: 2px;
+  bottom: 3px;
+  left: 4px;
+  z-index: 1; }
+
+.fixed {
+  position: fixed;
+  top: 1px;
+  right: 2px;
+  bottom: 3px;
+  left: 4px;
+  z-index: 1; }
