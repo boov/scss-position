@@ -1,0 +1,3 @@
+@mixin sticky($top: auto, $right: auto, $bottom: auto, $left: auto, $z-index: 0) {
+  @include position(sticky, $top, $right, $bottom, $left, $z-index);
+}
